@@ -13,6 +13,9 @@
 		A42A056F25377220003D26E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42A056E25377220003D26E4 /* Assets.xcassets */; };
 		A42A057225377220003D26E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42A057025377220003D26E4 /* LaunchScreen.storyboard */; };
 		A42A057C253783BE003D26E4 /* iTunesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A057B253783BE003D26E4 /* iTunesAPI.swift */; };
+		A42A057E253BF304003D26E4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A057D253BF304003D26E4 /* CustomCell.swift */; };
+		A4AC9545253CF42500D4DD64 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC9544253CF42500D4DD64 /* CustomImageView.swift */; };
+		A4AC9547253D380000D4DD64 /* AlbumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC9546253D380000D4DD64 /* AlbumDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A42A057125377220003D26E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42A057325377220003D26E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A42A057B253783BE003D26E4 /* iTunesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesAPI.swift; sourceTree = "<group>"; };
+		A42A057D253BF304003D26E4 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		A4AC9544253CF42500D4DD64 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		A4AC9546253D380000D4DD64 /* AlbumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				A42A05652537721F003D26E4 /* AppDelegate.swift */,
 				A42A05672537721F003D26E4 /* SceneDelegate.swift */,
+				A42A057D253BF304003D26E4 /* CustomCell.swift */,
+				A4AC9544253CF42500D4DD64 /* CustomImageView.swift */,
 				A42A05692537721F003D26E4 /* ViewController.swift */,
+				A4AC9546253D380000D4DD64 /* AlbumDetail.swift */,
 				A42A057B253783BE003D26E4 /* iTunesAPI.swift */,
 				A42A056E25377220003D26E4 /* Assets.xcassets */,
 				A42A057025377220003D26E4 /* LaunchScreen.storyboard */,
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42A056A2537721F003D26E4 /* ViewController.swift in Sources */,
+				A4AC9545253CF42500D4DD64 /* CustomImageView.swift in Sources */,
 				A42A057C253783BE003D26E4 /* iTunesAPI.swift in Sources */,
+				A42A057E253BF304003D26E4 /* CustomCell.swift in Sources */,
+				A4AC9547253D380000D4DD64 /* AlbumDetail.swift in Sources */,
 				A42A05662537721F003D26E4 /* AppDelegate.swift in Sources */,
 				A42A05682537721F003D26E4 /* SceneDelegate.swift in Sources */,
 			);

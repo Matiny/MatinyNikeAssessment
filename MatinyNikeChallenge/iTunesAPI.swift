@@ -35,7 +35,7 @@ class AlbumAPI {
     
     func getAlbumData(onCompletion: @escaping ([Album]) -> ()) {
         
-        let urlString = "https://rss.itunes.apple.com/api/v1/us/apple-music/coming-soon/all/100/explicit.json"
+        let urlString = "https://rss.itunes.apple.com/api/v1/us/apple-music/top-albums/all/100/explicit.json"
         
         guard let url = URL(string: urlString) else {return}
         

@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         view.backgroundColor = .white
         setupView()
-        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        table.register(CustomCell.self, forCellReuseIdentifier: "cell")
         table.delegate = self
         table.dataSource = self
         
@@ -37,6 +37,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func setupView() {
         view.addSubview(table)
+        table.rowHeight = 200
         table.translatesAutoresizingMaskIntoConstraints = false
     }
     
@@ -47,7 +48,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = albums[indexPath.row].artistName
+        
+        guard let customCell = cell as? CustomCell else { return cell }
+        
+        customCell.artistLabel.text = albums[indexPath.row].artistName
+        customCell.albumLabel.text = albums[indexPath.row].name
+        
+        if let url = URL(string: albums[indexPath.row].artworkUrl100) {
+            customCell.customImage.loadImage(from: url)
+        }
+
         return cell
     }
     
@@ -56,7 +66,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // Code
+        let oneAlbum = albums[indexPath.row]
+        let albumDetail = AlbumDetail()
+        albumDetail.info = oneAlbum
+        albumDetail.modalPresentationStyle = .fullScreen
+        present(albumDetail, animated: true)
     }
 
 
