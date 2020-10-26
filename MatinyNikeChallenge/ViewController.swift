@@ -10,7 +10,13 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var albums = [Album]()
+    var albums = [Album]() {
+        didSet {
+            DispatchQueue.main.async {
+                self.table.reloadData()
+            }
+        }
+    }
     
     // MARK: Table Setup
     
@@ -24,15 +30,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         table.delegate = self
         table.dataSource = self
         
-        let anon = {
-            (fetchedAlbumList: [Album]) in
-            DispatchQueue.main.async {
-                self.albums = fetchedAlbumList
-                self.table.reloadData()
-            }
-        }
         
-        AlbumAPI.shared.getAlbumData(onCompletion: anon)
+        loadAlbumData()
     }
     
     func setupView() {
@@ -72,7 +71,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         albumDetail.modalPresentationStyle = .fullScreen
         present(albumDetail, animated: true)
     }
-
+    
+    func loadAlbumData() {
+        let albumInfo = AlbumAPI()
+        albumInfo.getAlbumData { [weak self] result in
+            switch result {
+            case .failure(let error):
+                print(error)
+            case .success(let albums):
+                self?.albums.append(contentsOf: albums)
+            }
+        }
+    }
 
 }
 

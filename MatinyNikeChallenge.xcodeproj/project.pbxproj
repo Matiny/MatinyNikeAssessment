@@ -14,9 +14,25 @@
 		A42A057225377220003D26E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42A057025377220003D26E4 /* LaunchScreen.storyboard */; };
 		A42A057C253783BE003D26E4 /* iTunesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A057B253783BE003D26E4 /* iTunesAPI.swift */; };
 		A42A057E253BF304003D26E4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A057D253BF304003D26E4 /* CustomCell.swift */; };
+		A43C294925437E0F00B49864 /* NikeAlbumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C294825437E0F00B49864 /* NikeAlbumTest.swift */; };
 		A4AC9545253CF42500D4DD64 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC9544253CF42500D4DD64 /* CustomImageView.swift */; };
 		A4AC9547253D380000D4DD64 /* AlbumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC9546253D380000D4DD64 /* AlbumDetail.swift */; };
+		A4FD7A30253F6F7E0016A23F /* MatinyNikeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A2F253F6F7E0016A23F /* MatinyNikeChallengeTests.swift */; };
+		A4FD7A38254140280016A23F /* MockData.json in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A37254140280016A23F /* MockData.json */; };
+		A4FD7A3B2541DA110016A23F /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A3A2541DA110016A23F /* Album.swift */; };
+		A4FD7A422541EAC60016A23F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A412541EAC60016A23F /* Constants.swift */; };
+		A4FD7A4C2541FABA0016A23F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A4B2541FABA0016A23F /* UIView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4FD7A32253F6F7E0016A23F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42A055A2537721F003D26E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42A05612537721F003D26E4;
+			remoteInfo = MatinyNikeChallenge;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A42A05622537721F003D26E4 /* MatinyNikeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatinyNikeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,12 +44,27 @@
 		A42A057325377220003D26E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A42A057B253783BE003D26E4 /* iTunesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesAPI.swift; sourceTree = "<group>"; };
 		A42A057D253BF304003D26E4 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		A43C294825437E0F00B49864 /* NikeAlbumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeAlbumTest.swift; sourceTree = "<group>"; };
 		A4AC9544253CF42500D4DD64 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		A4AC9546253D380000D4DD64 /* AlbumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetail.swift; sourceTree = "<group>"; };
+		A4FD7A2D253F6F7D0016A23F /* MatinyNikeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatinyNikeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FD7A2F253F6F7E0016A23F /* MatinyNikeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatinyNikeChallengeTests.swift; sourceTree = "<group>"; };
+		A4FD7A31253F6F7E0016A23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FD7A37254140280016A23F /* MockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData.json; sourceTree = "<group>"; };
+		A4FD7A3A2541DA110016A23F /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		A4FD7A412541EAC60016A23F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A4FD7A4B2541FABA0016A23F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A42A055F2537721F003D26E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FD7A2A253F6F7D0016A23F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				A42A05642537721F003D26E4 /* MatinyNikeChallenge */,
+				A4FD7A2E253F6F7E0016A23F /* MatinyNikeChallengeTests */,
 				A42A05632537721F003D26E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				A42A05622537721F003D26E4 /* MatinyNikeChallenge.app */,
+				A4FD7A2D253F6F7D0016A23F /* MatinyNikeChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,16 +97,70 @@
 			children = (
 				A42A05652537721F003D26E4 /* AppDelegate.swift */,
 				A42A05672537721F003D26E4 /* SceneDelegate.swift */,
-				A42A057D253BF304003D26E4 /* CustomCell.swift */,
-				A4AC9544253CF42500D4DD64 /* CustomImageView.swift */,
 				A42A05692537721F003D26E4 /* ViewController.swift */,
-				A4AC9546253D380000D4DD64 /* AlbumDetail.swift */,
-				A42A057B253783BE003D26E4 /* iTunesAPI.swift */,
+				A46DE2BB2547417300C8690C /* View */,
+				A4AC9544253CF42500D4DD64 /* CustomImageView.swift */,
+				A4FD7A392541D9E40016A23F /* Model */,
+				A4FD7A402541EA800016A23F /* Resources */,
 				A42A056E25377220003D26E4 /* Assets.xcassets */,
 				A42A057025377220003D26E4 /* LaunchScreen.storyboard */,
 				A42A057325377220003D26E4 /* Info.plist */,
 			);
 			path = MatinyNikeChallenge;
+			sourceTree = "<group>";
+		};
+		A46DE2BB2547417300C8690C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4FD7A4D25432B760016A23F /* Cell */,
+				A4FD7A3D2541E1C90016A23F /* DetailVC */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4FD7A2E253F6F7E0016A23F /* MatinyNikeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43C294825437E0F00B49864 /* NikeAlbumTest.swift */,
+				A4FD7A2F253F6F7E0016A23F /* MatinyNikeChallengeTests.swift */,
+				A4FD7A37254140280016A23F /* MockData.json */,
+				A4FD7A31253F6F7E0016A23F /* Info.plist */,
+			);
+			path = MatinyNikeChallengeTests;
+			sourceTree = "<group>";
+		};
+		A4FD7A392541D9E40016A23F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4FD7A3A2541DA110016A23F /* Album.swift */,
+				A42A057B253783BE003D26E4 /* iTunesAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4FD7A3D2541E1C90016A23F /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				A4AC9546253D380000D4DD64 /* AlbumDetail.swift */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
+		A4FD7A402541EA800016A23F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4FD7A412541EAC60016A23F /* Constants.swift */,
+				A4FD7A4B2541FABA0016A23F /* UIView.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4FD7A4D25432B760016A23F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A42A057D253BF304003D26E4 /* CustomCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +183,24 @@
 			productReference = A42A05622537721F003D26E4 /* MatinyNikeChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A4FD7A2C253F6F7D0016A23F /* MatinyNikeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FD7A36253F6F7E0016A23F /* Build configuration list for PBXNativeTarget "MatinyNikeChallengeTests" */;
+			buildPhases = (
+				A4FD7A29253F6F7D0016A23F /* Sources */,
+				A4FD7A2A253F6F7D0016A23F /* Frameworks */,
+				A4FD7A2B253F6F7D0016A23F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4FD7A33253F6F7E0016A23F /* PBXTargetDependency */,
+			);
+			name = MatinyNikeChallengeTests;
+			productName = MatinyNikeChallengeTests;
+			productReference = A4FD7A2D253F6F7D0016A23F /* MatinyNikeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -108,6 +213,10 @@
 				TargetAttributes = {
 					A42A05612537721F003D26E4 = {
 						CreatedOnToolsVersion = 11.7;
+					};
+					A4FD7A2C253F6F7D0016A23F = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = A42A05612537721F003D26E4;
 					};
 				};
 			};
@@ -125,6 +234,7 @@
 			projectRoot = "";
 			targets = (
 				A42A05612537721F003D26E4 /* MatinyNikeChallenge */,
+				A4FD7A2C253F6F7D0016A23F /* MatinyNikeChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +249,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4FD7A2B253F6F7D0016A23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -146,17 +263,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FD7A4C2541FABA0016A23F /* UIView.swift in Sources */,
 				A42A056A2537721F003D26E4 /* ViewController.swift in Sources */,
 				A4AC9545253CF42500D4DD64 /* CustomImageView.swift in Sources */,
 				A42A057C253783BE003D26E4 /* iTunesAPI.swift in Sources */,
 				A42A057E253BF304003D26E4 /* CustomCell.swift in Sources */,
 				A4AC9547253D380000D4DD64 /* AlbumDetail.swift in Sources */,
+				A4FD7A422541EAC60016A23F /* Constants.swift in Sources */,
 				A42A05662537721F003D26E4 /* AppDelegate.swift in Sources */,
 				A42A05682537721F003D26E4 /* SceneDelegate.swift in Sources */,
+				A4FD7A3B2541DA110016A23F /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FD7A29253F6F7D0016A23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43C294925437E0F00B49864 /* NikeAlbumTest.swift in Sources */,
+				A4FD7A30253F6F7E0016A23F /* MatinyNikeChallengeTests.swift in Sources */,
+				A4FD7A38254140280016A23F /* MockData.json in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4FD7A33253F6F7E0016A23F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42A05612537721F003D26E4 /* MatinyNikeChallenge */;
+			targetProxy = A4FD7A32253F6F7E0016A23F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A42A057025377220003D26E4 /* LaunchScreen.storyboard */ = {
@@ -318,6 +456,44 @@
 			};
 			name = Release;
 		};
+		A4FD7A34253F6F7E0016A23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MatinyNikeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Matiny.MatinyNikeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatinyNikeChallenge.app/MatinyNikeChallenge";
+			};
+			name = Debug;
+		};
+		A4FD7A35253F6F7E0016A23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MatinyNikeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Matiny.MatinyNikeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatinyNikeChallenge.app/MatinyNikeChallenge";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -335,6 +511,15 @@
 			buildConfigurations = (
 				A42A057725377220003D26E4 /* Debug */,
 				A42A057825377220003D26E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FD7A36253F6F7E0016A23F /* Build configuration list for PBXNativeTarget "MatinyNikeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FD7A34253F6F7E0016A23F /* Debug */,
+				A4FD7A35253F6F7E0016A23F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
