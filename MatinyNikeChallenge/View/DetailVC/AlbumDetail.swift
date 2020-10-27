@@ -136,7 +136,7 @@ class AlbumDetail: UIViewController {
     
     @objc func openiTunes() {
         
-        guard let albumAddress = info.url?.dropFirst(8) else { return }
+        guard let albumAddress =  info?.url.dropFirst(8) else { return }
         let trimmedAddress = String(albumAddress.dropLast(5))
         let itunesLink = "itms://" + trimmedAddress + "itunes"
         if let urlScheme = URL(string: itunesLink) {
