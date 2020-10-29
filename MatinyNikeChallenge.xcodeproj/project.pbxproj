@@ -20,7 +20,6 @@
 		A4FD7A30253F6F7E0016A23F /* MatinyNikeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A2F253F6F7E0016A23F /* MatinyNikeChallengeTests.swift */; };
 		A4FD7A38254140280016A23F /* MockData.json in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A37254140280016A23F /* MockData.json */; };
 		A4FD7A3B2541DA110016A23F /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A3A2541DA110016A23F /* Album.swift */; };
-		A4FD7A422541EAC60016A23F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A412541EAC60016A23F /* Constants.swift */; };
 		A4FD7A4C2541FABA0016A23F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD7A4B2541FABA0016A23F /* UIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +51,6 @@
 		A4FD7A31253F6F7E0016A23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4FD7A37254140280016A23F /* MockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData.json; sourceTree = "<group>"; };
 		A4FD7A3A2541DA110016A23F /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
-		A4FD7A412541EAC60016A23F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A4FD7A4B2541FABA0016A23F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,7 +147,6 @@
 		A4FD7A402541EA800016A23F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A4FD7A412541EAC60016A23F /* Constants.swift */,
 				A4FD7A4B2541FABA0016A23F /* UIView.swift */,
 			);
 			path = Resources;
@@ -269,7 +266,6 @@
 				A42A057C253783BE003D26E4 /* iTunesAPI.swift in Sources */,
 				A42A057E253BF304003D26E4 /* CustomCell.swift in Sources */,
 				A4AC9547253D380000D4DD64 /* AlbumDetail.swift in Sources */,
-				A4FD7A422541EAC60016A23F /* Constants.swift in Sources */,
 				A42A05662537721F003D26E4 /* AppDelegate.swift in Sources */,
 				A42A05682537721F003D26E4 /* SceneDelegate.swift in Sources */,
 				A4FD7A3B2541DA110016A23F /* Album.swift in Sources */,
